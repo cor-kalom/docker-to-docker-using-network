@@ -4,9 +4,10 @@
 
 ## How to run
 
-1. `cd app_1 && docker-compose up`
-2. `cd app_2 && docker-compose up`
-3. `cd app_0 && docker-compose up`
-4. done
+1. `chmod +x create_network.sh && ./create_network.sh`
+2. `cd app_1 && docker-compose up`
+3. `cd app_2 && docker-compose up`
+4. `cd app_0 && docker-compose up`
+5. done
 
 ![d-t-d-u-n](https://user-images.githubusercontent.com/31984256/34364847-23cf21f6-ea8a-11e7-9f24-2afd7a95e204.png)

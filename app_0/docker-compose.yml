@@ -1,0 +1,14 @@
+version: "3"
+services:
+  node0:
+    image: node:9.3.0
+    volumes:
+      - ./app:/var/www/app
+    working_dir: /var/www/app
+    command: node app.js
+    networks:
+      - aliascustomnetwork
+networks:
+  aliascustomnetwork:
+    external:
+      name: customnetwork
